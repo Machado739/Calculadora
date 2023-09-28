@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+    
+    .calculator {
+    background-color: rgb(151, 151, 151);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .display {
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    }
+    
+    .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    }
+    
+    button {
+    font-size: 18px;
+    padding: 10px;
+    border: none solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #ddd;
+    }
+    /* Estilo básico para los botones */
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para los números */
+  .number {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilo para los operadores */
+  .operator {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Estilo para el botón de igual */
+  .equals {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+  }
+  
+  /* Estilo para la pantalla de la calculadora */
+  .display {
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border-radius: 12px; /* Agregar bordes redondeados */
+  }
+
+  .clear {
+    background-color: #d42000;
+    color: #fff;
+    border: none;
+  }
+
+  
+
+
+
+
+
+
